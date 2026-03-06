@@ -1,8 +1,8 @@
 package org.example;
 
 public class Electronics extends Product{
-    private int warranty;
-    private String brand;
+    protected int warranty;
+    protected String brand;
 
     public Electronics(String name, int price, int productID, int warranty, String brand) {
         super(name, price, productID);
