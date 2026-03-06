@@ -1,11 +1,11 @@
 package org.example;
 
 public class Employee {
-    private String name;
+    protected String name;
 
-    private int employeeID;
+    protected int employeeID;
 
-    private int salary;
+    protected int salary;
 
     public Employee(int salary, int employeeID, String name) {
         this.employeeID = employeeID;
