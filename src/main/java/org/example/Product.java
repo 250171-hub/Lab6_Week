@@ -1,9 +1,9 @@
 package org.example;
 
 public class Product {
-    private int productID;
-    private String name;
-    private int price;
+    protected int productID;
+    protected String name;
+    protected int price;
 
     public Product(String name, int price, int productID) {
         this.price = price;
