@@ -1,9 +1,9 @@
 package org.example;
 
 public class Person {
-    private String name;
-    private int ID;
-    private int age;
+   protected String name;
+   protected int ID;
+   protected int age;
 
     public void displayInfo(){
         System.out.println(name + ID + age );
