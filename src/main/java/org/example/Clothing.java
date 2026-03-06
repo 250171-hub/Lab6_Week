@@ -1,8 +1,8 @@
 package org.example;
 
 public class Clothing extends  Product{
-    private int size;
-    private String color;
+    protected int size;
+    protected String color;
 
     public Clothing(String name, int price, int productID, int size, String color) {
         super(name, price, productID);
